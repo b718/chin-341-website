@@ -24,14 +24,16 @@ export default function Home() {
           maxWidth: "fit-content",
           margin: "0 auto",
           marginBottom: "2rem",
+          marginLeft: "1rem",
+          marginRight: "1rem",
         }}
       >
         如何成为一个好老师
       </h1>
 
       <iframe
-        width="560"
-        height="315"
+        width="500"
+        height="300"
         src="https://www.youtube.com/embed/hp71nkviI8Q?si=8upGXEJxhGg_l5iQ"
         title="YouTube video player"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -50,6 +52,14 @@ export default function Home() {
       <TextSection
         title={textdata["job-search-process"].title}
         content={textdata["job-search-process"].content}
+      />
+      <TextSection
+        title={textdata["soft-technical-skills"].title}
+        content={textdata["soft-technical-skills"].content}
+      />
+      <TextSection
+        title={textdata["preparation-for-job"].title}
+        content={textdata["preparation-for-job"].content}
       />
     </div>
   );

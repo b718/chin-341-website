@@ -69,6 +69,14 @@ export default function Home() {
         title={textdata["work-life-balance"].title}
         content={textdata["work-life-balance"].content}
       />
+      <div style={{ textAlign: "center", marginTop: "2rem" }}>
+        <img
+          src="/images/interview.jpeg"
+          alt="Description of the image"
+          style={{ maxWidth: "100%", height: "auto" }}
+        />
+        <div style={{ marginTop: "0.5rem" }}>感谢林老师这个学期的教导!</div>
+      </div>
     </div>
   );
 }

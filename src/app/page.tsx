@@ -65,6 +65,10 @@ export default function Home() {
         title={textdata["ubc-teaching-style"].title}
         content={textdata["ubc-teaching-style"].content}
       />
+      <TextSection
+        title={textdata["work-life-balance"].title}
+        content={textdata["work-life-balance"].content}
+      />
     </div>
   );
 }
